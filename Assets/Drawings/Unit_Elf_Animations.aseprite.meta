@@ -1,0 +1,690 @@
+fileFormatVersion: 2
+guid: fba9c93ffe86f3d439fdeab678963940
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Unit_Elf_Animations_Frame_0
+    originalName: 
+    pivot: {x: 0.6, y: -0.8484849}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 198
+      width: 15
+      height: 33
+    spriteID: f10e76ebb89d5794f87b8784148b6fc0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 198}
+  - name: Unit_Elf_Animations_Frame_1
+    originalName: 
+    pivot: {x: 0.5, y: -0.84375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 79
+      width: 14
+      height: 32
+    spriteID: 7018ffca763c1e34ebbec1c77eab717c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 79}
+  - name: Unit_Elf_Animations_Frame_2
+    originalName: 
+    pivot: {x: 0.4666667, y: -0.90000004}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 41
+      width: 15
+      height: 30
+    spriteID: 646ee4e081049344887689683c09bb59
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 41}
+  - name: Unit_Elf_Animations_Frame_3
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.9655172}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 161
+      width: 18
+      height: 29
+    spriteID: 681a3f08f64cf104bb463cb3f17f6348
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 161}
+  - name: Unit_Elf_Animations_Frame_4
+    originalName: 
+    pivot: {x: 0.5, y: -0.9310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 124
+      width: 22
+      height: 29
+    spriteID: bb7d9efbef203264889b4ae46c3ffcca
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 124}
+  - name: Unit_Elf_Animations_Frame_5
+    originalName: 
+    pivot: {x: 0.6857143, y: -0.9310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 35
+      height: 29
+    spriteID: 5715e3b255cdc6d48b4d4a3dd8931499
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Unit_Elf_Animations_Frame_6
+    originalName: 
+    pivot: {x: 0.7058824, y: -0.962963}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 61
+      width: 34
+      height: 27
+    spriteID: eab6287a9d499b646809c419d926a5fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 61}
+  - name: Unit_Elf_Animations_Frame_7
+    originalName: 
+    pivot: {x: 0.5555556, y: -1.3333334}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 4
+      width: 45
+      height: 21
+    spriteID: d6131ebf66300374783e0c691a030570
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 4}
+  - name: Unit_Elf_Animations_Frame_8
+    originalName: 
+    pivot: {x: 0.47826087, y: -1.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 33
+      width: 46
+      height: 20
+    spriteID: fc1c93c179bfc7047a5682e0d492781f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 33}
+  - name: Unit_Elf_Animations_Frame_9
+    originalName: 
+    pivot: {x: 0.44186047, y: -1.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 96
+      width: 43
+      height: 20
+    spriteID: b2e2990424ab06846b905720da61b134
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 96}
+  - name: Unit_Elf_Animations_Frame_10
+    originalName: 
+    pivot: {x: 0.22222222, y: -1.4}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 61
+      width: 27
+      height: 20
+    spriteID: 1b5801fa53f5fc94ba945c3ee81b25fc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 61}
+  - name: Unit_Elf_Animations_Frame_11
+    originalName: 
+    pivot: {x: 0.23529412, y: -1.2857143}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 17
+      height: 21
+    spriteID: c5cc9d1ab6b1e7642aa16b3f54e02721
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 100, y: 4}
+  - name: Unit_Elf_Animations_Frame_12
+    originalName: 
+    pivot: {x: 0.4615385, y: -1.04}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 77
+      y: 124
+      width: 13
+      height: 25
+    spriteID: c23940aceaaa2704e8e2b154bd25e124
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 77, y: 124}
+  - name: Unit_Elf_Animations_Frame_13
+    originalName: 
+    pivot: {x: 0.3125, y: -0.9310345}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 73
+      y: 161
+      width: 16
+      height: 29
+    spriteID: 267607cf01986864ba756b27f5a00618
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 73, y: 161}
+  - name: Unit_Elf_Animations_Frame_14
+    originalName: 
+    pivot: {x: 0.3888889, y: -0.9655172}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 47
+      y: 198
+      width: 18
+      height: 29
+    spriteID: 7473311eb8b1bba4f875ca9a9be178f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 47, y: 198}
+  - name: Unit_Elf_Animations_Frame_15
+    originalName: 
+    pivot: {x: 0.6, y: -0.8484849}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 96
+      width: 15
+      height: 33
+    spriteID: 1cf39d28f753a084cb9cb7c8bee00a22
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 96}
+  - name: Unit_Elf_Animations_Frame_16
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.8484849}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 178
+      width: 14
+      height: 33
+    spriteID: 04759f33dec4f7d4bbe27e7e5cbc3393
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 178}
+  - name: Unit_Elf_Animations_Frame_17
+    originalName: 
+    pivot: {x: 0.5714286, y: -0.8484849}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 219
+      width: 14
+      height: 33
+    spriteID: d32537e237fc38748b8a4ab829ad1fe8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 219}
+  - name: Unit_Elf_Animations_Frame_18
+    originalName: 
+    pivot: {x: 0.6, y: -0.8484849}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 137
+      width: 15
+      height: 33
+    spriteID: c436c1ccf89a93f4aa67cce3867752db
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 137}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1645093416
+    name: Unit_Elf_Animations
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Unit_Elf_Animations_Frame_0
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 28
+        width: 15
+        height: 33
+      spriteId: f10e76ebb89d5794f87b8784148b6fc0
+    - name: Unit_Elf_Animations_Frame_1
+      frameIndex: 1
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 27
+        width: 14
+        height: 32
+      spriteId: 7018ffca763c1e34ebbec1c77eab717c
+    - name: Unit_Elf_Animations_Frame_2
+      frameIndex: 2
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 27
+        width: 15
+        height: 30
+      spriteId: 646ee4e081049344887689683c09bb59
+    - name: Unit_Elf_Animations_Frame_3
+      frameIndex: 3
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 28
+        width: 18
+        height: 29
+      spriteId: 681a3f08f64cf104bb463cb3f17f6348
+    - name: Unit_Elf_Animations_Frame_4
+      frameIndex: 4
+      additiveSortOrder: 0
+      cellRect:
+        x: 21
+        y: 27
+        width: 22
+        height: 29
+      spriteId: bb7d9efbef203264889b4ae46c3ffcca
+    - name: Unit_Elf_Animations_Frame_5
+      frameIndex: 5
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 27
+        width: 35
+        height: 29
+      spriteId: 5715e3b255cdc6d48b4d4a3dd8931499
+    - name: Unit_Elf_Animations_Frame_6
+      frameIndex: 6
+      additiveSortOrder: 0
+      cellRect:
+        x: 8
+        y: 26
+        width: 34
+        height: 27
+      spriteId: eab6287a9d499b646809c419d926a5fc
+    - name: Unit_Elf_Animations_Frame_7
+      frameIndex: 7
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 28
+        width: 45
+        height: 21
+      spriteId: d6131ebf66300374783e0c691a030570
+    - name: Unit_Elf_Animations_Frame_8
+      frameIndex: 8
+      additiveSortOrder: 0
+      cellRect:
+        x: 10
+        y: 28
+        width: 46
+        height: 20
+      spriteId: fc1c93c179bfc7047a5682e0d492781f
+    - name: Unit_Elf_Animations_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 13
+        y: 28
+        width: 43
+        height: 20
+      spriteId: b2e2990424ab06846b905720da61b134
+    - name: Unit_Elf_Animations_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 28
+        width: 27
+        height: 20
+      spriteId: 1b5801fa53f5fc94ba945c3ee81b25fc
+    - name: Unit_Elf_Animations_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 28
+        y: 27
+        width: 17
+        height: 21
+      spriteId: c5cc9d1ab6b1e7642aa16b3f54e02721
+    - name: Unit_Elf_Animations_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 26
+        y: 26
+        width: 13
+        height: 25
+      spriteId: c23940aceaaa2704e8e2b154bd25e124
+    - name: Unit_Elf_Animations_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 27
+        y: 27
+        width: 16
+        height: 29
+      spriteId: 267607cf01986864ba756b27f5a00618
+    - name: Unit_Elf_Animations_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 28
+        width: 18
+        height: 29
+      spriteId: 7473311eb8b1bba4f875ca9a9be178f0
+    - name: Unit_Elf_Animations_Frame_15
+      frameIndex: 15
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 28
+        width: 15
+        height: 33
+      spriteId: 1cf39d28f753a084cb9cb7c8bee00a22
+    - name: Unit_Elf_Animations_Frame_16
+      frameIndex: 16
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 28
+        width: 14
+        height: 33
+      spriteId: 04759f33dec4f7d4bbe27e7e5cbc3393
+    - name: Unit_Elf_Animations_Frame_17
+      frameIndex: 17
+      additiveSortOrder: 0
+      cellRect:
+        x: 24
+        y: 28
+        width: 14
+        height: 33
+      spriteId: d32537e237fc38748b8a4ab829ad1fe8
+    - name: Unit_Elf_Animations_Frame_18
+      frameIndex: 18
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 28
+        width: 15
+        height: 33
+      spriteId: c436c1ccf89a93f4aa67cce3867752db
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
