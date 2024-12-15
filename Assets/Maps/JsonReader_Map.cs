@@ -36,14 +36,6 @@ public class JsonReader_Map : MonoBehaviour
         }
         else throw new System.ArgumentNullException("Wrong index of arrays");
     }
-    public static void sa()
-    {
-        int[] array = MapArrays[2];
-        for (int i = 0; i < 20; i++)
-        {
-            Debug.Log(array[i]);
-        }
-    }
 }
 
 

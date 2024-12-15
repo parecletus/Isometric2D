@@ -11,7 +11,7 @@ public class cam : MonoBehaviour
     public Vector2 camspeed;
     public float maxspeed;
 
-    void Update()
+    public void Update()
     {
         xInput = Input.GetAxisRaw("Horizontal");
         yInput = Input.GetAxisRaw("Vertical");

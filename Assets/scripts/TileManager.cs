@@ -4,9 +4,16 @@ using Unity.Mathematics;
 using System;
 public class TileManager : MonoBehaviour // works 
 {
+    /// <summary>
+    /// Creates Tiles relative to their positions
+    /// When Event is triggered :
+    /// It checks if previous event is different from this one.
+    /// If it is then it changes transparency to show tiles. 
+    /// </summary>
+
     public SuperMap map;
-    public GameObject Big_Tile;
-    public GameObject Small_Tile;
+    public GameObject Big_Tile; // 2x2 tile prfab
+    public GameObject Small_Tile; // 1x1 tile prefab
     public GameObject Tiles_Holder;
     private SpriteRenderer[] sr_tiles;
 
@@ -18,15 +25,15 @@ public class TileManager : MonoBehaviour // works
 
     void Start()
     {
-        GlobalEvents<Vector2>.coordinates.AddListener(GetGridCoordinates);
+        GlobalEvents<Vector2>.coordinates.AddListener(GridCoordinates);
         CreateTiles();
         sr_tiles = GetComponentsInChildren<SpriteRenderer>();
-        GlobalEvents<bool>.tiles.AddListener(TileShower);
+        GlobalEvents<bool>.tiles.AddListener(ShowTiles);
     }
 
-    public void GetGridCoordinates(Vector2 coordinates)
+    public void GridCoordinates(Vector2 coordinates)
     {
-        var A = Helper.GridCalculator(coordinates);
+        Helper.GridCalculator(coordinates);
     }
     public void CreateTiles()
     {
@@ -43,16 +50,17 @@ public class TileManager : MonoBehaviour // works
 
             if (orj_array[i] == 3)
             {
-                GameObject bro = Instantiate(Small_Tile, new Vector3(vector(i, j).x, vector(i, j).y, 0), quaternion.identity);
+                GameObject bro = Instantiate(Small_Tile, new Vector3(Grid_to_World(i, j).x, Grid_to_World(i, j).y, 0), quaternion.identity);
 
-                bro.transform.parent = Tiles_Holder.transform;
+                bro.transform.parent = Tiles_Holder.transform; // tiles holder 
                 bro.transform.name = "Coordinates: " + i % 16 + " , " + j;
             }
         }
         TileMap = array;
     }
-    private Vector2 vector(int x, int y)
+    private Vector2 Grid_to_World(int x, int y)
     {
+        // calculates grid coordinates to world point 
         Vector2 coor = Helper.PointCalculator(x % 16, y, map.m_TileWidth, map.m_TileHeight);
         Vector2 isometric = Helper.Isometric_Vector2(coor);
 
@@ -60,13 +68,15 @@ public class TileManager : MonoBehaviour // works
         float yn = MathF.Round(isometric.y, 3);
         return new Vector2(xn, yn);
     }
-    public void TileShower(bool sa)
+    public void ShowTiles(bool incoming_bool)
     {
-        var IsCallDifferent = previous_call != sa ? true : false;
+        // Could use for loops or list<spriterenderer> instead of array to make it faster. 
+        // There are not too many tiles. 
+        bool IsCallDifferent = previous_call != incoming_bool ? true : false;
 
         if (IsCallDifferent)
         {
-            if (sa)
+            if (incoming_bool)
             {
                 foreach (SpriteRenderer sr in sr_tiles)
                 {
@@ -81,12 +91,12 @@ public class TileManager : MonoBehaviour // works
                 }
             }
         }
-        previous_call = sa;
+        previous_call = incoming_bool;
     }
 
     void OnDestroy()
     {
-        GlobalEvents<Vector2>.coordinates.RemoveListener(GetGridCoordinates);
-        GlobalEvents<bool>.tiles.RemoveListener(TileShower);
+        GlobalEvents<Vector2>.coordinates.RemoveListener(GridCoordinates);
+        GlobalEvents<bool>.tiles.RemoveListener(ShowTiles);
     }
 }

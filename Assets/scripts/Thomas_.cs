@@ -11,17 +11,18 @@ public class GlobalEvents : Channel
 {
     public readonly static Channel tiles = new Channel();
 }
+
 public class GlobalEvents<T> : Channel<T>
 {
     public static List<Channel<T>> channels = new List<Channel<T>>();
     public readonly static GlobalEvents<Vector2> coordinates = new GlobalEvents<Vector2>();
     public readonly static GlobalEvents<bool> tiles = new GlobalEvents<bool>();
 }
+
 #region  non-generic Channel
 public class Channel
 {
     private readonly HashSet<Action> ListenerLists = new HashSet<Action>();
-    private readonly HashSet<Action> listenes = new HashSet<Action>();
     public void AddListener(Action A)
     {
         if (ListenerLists == null) throw new System.ArgumentNullException("Channel null");
@@ -51,7 +52,7 @@ public class Channel
 public class Channel<T>
 {
     private readonly HashSet<Action<T>> ListenerLists = new HashSet<Action<T>>();
-    public HashSet<Action<T>> GetInstance()
+    public HashSet<Action<T>> GetHashSet()
     {
         return ListenerLists;
     }

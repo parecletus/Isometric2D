@@ -2,8 +2,13 @@ using UnityEngine;
 
 public class StateMachine
 {
-    public State _currentState;
+    /// <summary>
+    /// I could delete StartState and wrote this in ChangeState:
+    /// _currentstate?.Exit();
+    /// It didnt make much sense to look if there is a state every change of states.
+    /// </summary>
 
+    public State _currentState;
     public void StartState(State _state)
     {
         _currentState = _state;

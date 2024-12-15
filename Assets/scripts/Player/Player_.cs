@@ -18,28 +18,18 @@ public class Player_ : Entity_Unit
 
     void Start()
     {
-        AnimSetUp(_animator);
+        AnimSetUp();
         stateMachine.StartState(idle);
     }
     void Update()
     {
         stateMachine._currentState.Do();
-
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            GlobalEvents<bool>.tiles.Execute(false);
-        }
     }
-    void StateSelection(Vector2 sa)
+    void StateSelection()
     {
 
     }
-
-    public void Wheneventrised()
-    {
-
-    }
-    public void AnimSetUp(Animator animator)
+    private void AnimSetUp()
     {
         stateMachine = new StateMachine();
         State[] states = GetComponentsInChildren<State>();
